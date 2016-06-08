@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Full Test Suite - Firefox" parallel="classes" thread-count="2">
+    <test name="Regression - Firefox">
+        <parameter name="browser" value="remoteFirefox" />
+        <classes>
+            <class name="tests.VerifyYahooPage" />
+            <class name="tests.VerifyFacebookPage" />
+            <!--<class name="tests.VerifyYandexPage" />-->
+            <!--<class name="tests.VerifyGooglePage" />-->
+        </classes>
+    </test>
+</suite>
