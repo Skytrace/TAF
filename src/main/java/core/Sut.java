@@ -9,7 +9,7 @@ public class Sut {
 
     public void driverInitialization() {
         webDriver = new BrowserFactory()
-            .getBrowser(WebBrowser.FIREFOX)
+            .getBrowser(WebBrowser.REMOTE_FIREFOX)
             .detectBrowserType();
     }
 
