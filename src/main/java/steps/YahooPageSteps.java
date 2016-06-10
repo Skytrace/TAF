@@ -8,5 +8,6 @@ public class YahooPageSteps {
     public void checkYahooMainPage() {
         yahooPage = new YahooPage();
         yahooPage.openYahooMainPage();
+        yahooPage.clickBySpecificElement();
     }
 }
