@@ -1,6 +1,5 @@
 package steps;
 
-import core.Utils;
 import pages.FacebookPage;
 
 public class FacebookPageSteps {
