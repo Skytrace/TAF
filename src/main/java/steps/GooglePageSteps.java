@@ -3,10 +3,9 @@ package steps;
 import pages.GooglePage;
 
 public class GooglePageSteps {
-    private GooglePage googlePage;
+    private GooglePage googlePage = new GooglePage();
 
     public void checkGoogleMainPage() {
-        googlePage = new GooglePage();
         googlePage.openGoogleMainPage();
     }
 }
